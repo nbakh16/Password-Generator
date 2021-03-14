@@ -3,10 +3,10 @@ from characters import letters_list, digits_list, punctuations_list
 
 
 def passwordgenerator():
-    print("---Password Generator---")
-    input_letters_list = int(input("how many letters_list?\n"))
-    input_digits_list = int(input("how many number?\n"))
-    input_punctuations = int(input("how many symbols?\n"))
+    print("      Welcome to\n---Password Generator---\n\nIn your password—")
+    input_letters_list = int(input("how many letters you want?\n"))
+    input_digits_list = int(input("how many number you want?\n"))
+    input_punctuations = int(input("how many symbols you want?\n"))
 
     gen_password_list = []
     for i in range(1, input_letters_list+1):
