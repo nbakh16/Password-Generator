@@ -1,4 +1,4 @@
-import random, string
+import random
 from characters import letters_list, digits_list, punctuations_list
 
 
